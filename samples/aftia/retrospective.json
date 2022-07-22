@@ -1,6 +1,6 @@
 {
   "config": {
-    "submit": "",
+    "submit": "https://prod-00.canadacentral.logic.azure.com:443/workflows/0d67d751882a4eadbfbdff33d5c3a3eb/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=Fta8i2jva5cfgU6wnokmmPcKhkCjmGp4JIR9DXEXLpg",
     "siteKey": "4fbfd303f2f74c6ea2ec3bc9ab44d454",
     "successUrl": "",
     "theme": "",
@@ -51,23 +51,23 @@
         "options": [
           {
             "label": "Very Unsatisfied",
-            "value": "1"
+            "value": "Very Unsatisfied"
           },
           {
             "label": "Somewhat Unsatisfied",
-            "value": "2"
+            "value": "Somewhat Unsatisfied"
           },
           {
             "label": "Neither Satsified nor Unsatisfied",
-            "value": "3"
+            "value": "3Neither Satsified nor Unsatisfied"
           },
           {
             "label": "Somewhat Satsified",
-            "value": "4"
+            "value": "Somewhat Satsified"
           },
           {
             "label": "Very Satsified",
-            "value": "5"
+            "value": "Very Satsified"
           }
         ]
       },
@@ -189,7 +189,8 @@
         "type": "file",
         "label": "Please upload an image of your company logo, yourself or your team.",
         "required": false,
-        "width": "full"
+        "width": "full",
+        "bind": "fileattacment"
       },
       {
         "type": "textarea",
